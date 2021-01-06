@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+#header .nav-menu {
+    list-style: none;
+    display: block;
+    text-align: right;
+    padding: 20px 0px;
+    padding-right: 80px;
+    background-color: crimson;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+#header .nav-menu .list-item {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+#header .nav-menu .list-item a {
+    color: #3c3c3c;
+    font-size: bold;
+}
+
+#header .nav-menu a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: dimgrey;
+}
+
+.orange-highlight {
+    color: orange;
+}
+
+.half-width {
+    width: 38%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+
+.half-width img {
+    width: 80%;
+    padding-top: 2%;
+}
+
+.top {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.section-first {
+    height: 100px;
+
+}
+
+section {
+    height: 200px;
+    padding-bottom: 150px;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, salmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.bottom {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.wrapper {
+    margin-top: 300px;
+    padding: 80px;
+    background-color: #E5E5E5;
+    height: 500px;
+}
+
+.project-wrapper {
+    display: inline;
+
+}
+
+.width {
+    width: 25%;
+    margin: 1%;
+    float: left;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+}
+
+#left {
+    margin-left: 110px;
+}
+
+.header {
+    font-size: 24px;
+    color: #363958;
+}
+
+.text {
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.work-enquiry {
+    margin-top: 100px;
+    margin: 60px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.backimg {
+    background: url("images/Group_33094_1.png");
+    height: 200px;
+    width: 1000px;
+    background-size: cover;
+
+    align-items: center;
+}
+
+.backimg .half-width {
+    margin-bottom: 0px;
+}
+
+.backimg .half-width h1 {
+    color: #fff;
+}
+
+footer {
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    background-color: crimson;
+    height: 100px;
+}
